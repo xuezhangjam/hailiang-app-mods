@@ -6,7 +6,7 @@
 
 | 应用 | 版本 | 入口 |
 |---|---|---|
-| 星学伴 | 3.2.1.4 · AI 弹窗 Logo 版及历史包 | [下载](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/launcher-3.2.1.4) |
+| 星学伴 | 3.2.1.4 · AI 弹窗 Logo 版及历史包 | [最新版 APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-ai-logos.apk) · [历史包](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/launcher-3.2.1.4) |
 | 星学伴旧版 | 3.2.1.0 · 九个历史版本 | [归档](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/launcher-3.2.1.0-history) |
 | 班级通知 | 1.0.6 · M3e 原生平板版 | [下载](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/notice-1.0.6-m3e) |
 | 学生端课堂 | 3.2.1.0 · 四个功能分支 | [下载](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/classroom-3.2.1.0-mods) |
