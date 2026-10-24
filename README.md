@@ -1,5 +1,7 @@
 # 海亮应用修改版归档
 
+> 首次归档上传中：22 个 APK 正分组上传，尚未开放的分组链接暂不可用。已发布的分组可在 Releases 中下载。
+
 整理星学伴、班级通知、学生端课堂和精准作业的修改版 APK，包含当前功能版与历史版本。APK 位于 [Releases](https://github.com/xuezhangjam/hailiang-app-mods/releases)，仓库提供版本说明和 SHA256 校验值。
 
 ## 下载
