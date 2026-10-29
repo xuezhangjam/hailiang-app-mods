@@ -1,0 +1,3 @@
+package com.nice.room.ui.roomlive.fragment.ask;import java.util.*;import kotlin.*;import kotlin.jvm.functions.*;import com.nice.room.ui.roomlive.fragment.ask.data.*;
+public class QuestionAskViewModel{public List<QuestionAskSubmitAnswer> sent=new ArrayList<>();public List<Integer> types=new ArrayList<>();public List<Function1<Boolean,Unit>> callbacks=new ArrayList<>();public boolean failStart;
+public void replyAsk(int type,QuestionAskSubmitAnswer body,Function1<Boolean,Unit> callback){if(failStart)throw new IllegalStateException();sent.add(body);types.add(type);callbacks.add(callback);}public void reply(int n,Boolean success){callbacks.get(n).invoke(success);}}

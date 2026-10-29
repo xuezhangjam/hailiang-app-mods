@@ -1,0 +1,1 @@
+package android.util;public class Rational{public int numerator,denominator;public Rational(int n,int d){numerator=n;denominator=d;}}

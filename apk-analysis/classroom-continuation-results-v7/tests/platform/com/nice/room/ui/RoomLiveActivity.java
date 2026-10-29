@@ -1,0 +1,1 @@
+package com.nice.room.ui;public class RoomLiveActivity extends android.app.Activity{public java.util.List<Integer> actions=new java.util.ArrayList<>();public void modOpenLocalApp(int action){actions.add(action);}}

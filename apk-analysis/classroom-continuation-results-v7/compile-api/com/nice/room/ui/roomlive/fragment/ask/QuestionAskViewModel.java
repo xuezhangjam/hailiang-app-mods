@@ -1,0 +1,1 @@
+package com.nice.room.ui.roomlive.fragment.ask;public class QuestionAskViewModel{public void replyAsk(int type,com.nice.room.ui.roomlive.fragment.ask.data.QuestionAskSubmitAnswer body,kotlin.jvm.functions.Function1<Boolean,kotlin.Unit> callback){}}

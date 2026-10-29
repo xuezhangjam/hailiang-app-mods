@@ -1,0 +1,1 @@
+package com.hljzjx.classroom.mod;public class WindowSizing{public static int installs;public static void install(android.app.Activity a){installs++;}}

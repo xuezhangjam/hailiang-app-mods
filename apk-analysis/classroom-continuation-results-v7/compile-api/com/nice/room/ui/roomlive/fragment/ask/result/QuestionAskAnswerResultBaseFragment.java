@@ -1,0 +1,1 @@
+package com.nice.room.ui.roomlive.fragment.ask.result;public class QuestionAskAnswerResultBaseFragment extends androidx.fragment.app.Fragment{public long getAskId(){return 0;}public long getClassroomId(){return 0;}public void refreshData(){}}

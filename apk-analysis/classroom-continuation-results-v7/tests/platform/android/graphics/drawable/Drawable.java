@@ -1,0 +1,1 @@
+package android.graphics.drawable;public class Drawable{public Drawable mutate(){return this;}public void setTint(int c){}public void setBounds(int a,int b,int c,int d){}}

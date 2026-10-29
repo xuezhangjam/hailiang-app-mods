@@ -1,0 +1,1 @@
+package android.widget;public class Toast{public static final int LENGTH_LONG=1,LENGTH_SHORT=0;public static java.util.ArrayList<String> messages=new java.util.ArrayList<>();String message;public static Toast makeText(android.content.Context c,String s,int n){Toast t=new Toast();t.message=s;return t;}public void show(){messages.add(message);}}

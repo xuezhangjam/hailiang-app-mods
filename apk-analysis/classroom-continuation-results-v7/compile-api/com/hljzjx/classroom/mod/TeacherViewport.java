@@ -1,0 +1,1 @@
+package com.hljzjx.classroom.mod;public final class TeacherViewport{public static void apply(android.view.View v,int h,boolean ppt){}}

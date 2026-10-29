@@ -1,0 +1,1 @@
+package com.nice.room.ui.roomlive.fragment.ask.answer;public class QuestionAskHandwriteFragment extends QuestionAskAnswerBaseFragment{public com.hailiang.handwrite.widget.HandwriteView canvas;public String exported="stroke-v1";public String modExportContinuation(){return exported;}public com.hailiang.handwrite.widget.HandwriteView modGetCanvas(){return canvas;}}

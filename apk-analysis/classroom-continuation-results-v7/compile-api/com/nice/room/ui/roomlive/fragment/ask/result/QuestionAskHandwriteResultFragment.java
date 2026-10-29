@@ -1,0 +1,1 @@
+package com.nice.room.ui.roomlive.fragment.ask.result;public class QuestionAskHandwriteResultFragment extends QuestionAskAnswerResultBaseFragment{public void updateAnswer(com.hailiang.xxb.room.server.entity.ask.HandwriteAskShowAnswer answer,boolean mine){}}

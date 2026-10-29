@@ -308,6 +308,23 @@
       "size_bytes": 157165250,
       "sha256": "890c82e52e937095a193215f1a26562e15b4e654f009c0b0f99e3e17da4dea6a",
       "certificate_sha256": "73d7e5a8e0da02c7cc69f063b8e2615503f7970a044c1d13dd011202f8c34f0d"
+    },
+    {
+      "original_filename": "学生端课堂-3.2.1.0-续答结果显示修复-v7.apk",
+      "asset_name": "student-classroom-3.2.1.0-continuation-results-v7.apk",
+      "release_tag": "classroom-3.2.1.0-v7",
+      "label": "v7 续答结果显示修复",
+      "status": "current",
+      "note": "本地验证通过；手写已接受续答快照显示与原云端结果刷新，Pixel Tablet和服务器持久化/老师端未验收。",
+      "package": "com.hljzjx.edu.student.classroom",
+      "version": "3.2.1.0",
+      "version_code": "321000",
+      "size_bytes": 64559328,
+      "sha256": "1f4655e8f61163f1980d295cfd44992a6ed4b712c7fbd9ba802badcad8429396",
+      "certificate_sha256": "9311b6b4b2b20da0d7366f822dbbc6f3a3bde8fac35f2ca84fefed1a2aa6316e",
+      "source_asset_name": "student-classroom-continuation-results-v7-source.zip",
+      "source_sha256": "20526f0a265f85c2724ca89b134cf1bb288c5ef574f1b78f994db40b2a6a5c0c",
+      "source_path": "apk-analysis/classroom-continuation-results-v7"
     }
   ]
 }

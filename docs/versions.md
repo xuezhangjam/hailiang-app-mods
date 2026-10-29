@@ -1,8 +1,16 @@
 # 版本目录
 
-共 22 个修改版 APK。原文件名用于对应本地历史版本，附件名采用英文以便下载。
+共 23 个修改版 APK。原文件名用于对应本地历史版本，附件名采用英文以便下载。
 
 已知问题包仅作为历史记录保留。各版本的实机验证情况见说明；离线检查不等于完整实机验收。
+
+## 学生端课堂 3.2.1.0 · v7 续答结果显示修复
+
+| 版本 | 状态 | 下载 | 说明 |
+|---|---|---|---|
+| v7 续答结果显示修复 | 本地验证通过，待实机与服务器验收 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-3.2.1.0-continuation-results-v7.apk) · [源码](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-continuation-results-v7-source.zip) | 手写“我的作答”显示已被接口接受的续答快照，读取原结果接口；不把未上传编辑或旧批阅混入新版。继承 PPT v5 与分屏底栏 v6 修复。 |
+
+原文件名：`学生端课堂-3.2.1.0-续答结果显示修复-v7.apk`。原包名、版本与课堂 mod 同签名保持。辅助源码、构建和验证材料见 [项目目录](../apk-analysis/classroom-continuation-results-v7)；具体限制见 [v7 说明](classroom-v7.md)。
 
 ## 星学伴 3.2.1.4 · 当前版与历史版本
 

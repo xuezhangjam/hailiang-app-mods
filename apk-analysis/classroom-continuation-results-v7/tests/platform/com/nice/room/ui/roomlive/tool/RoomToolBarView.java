@@ -1,0 +1,1 @@
+package com.nice.room.ui.roomlive.tool;public class RoomToolBarView extends android.view.View{public boolean hideColor=true;public void setHideColorOptions(boolean value){hideColor=value;}public ToolBarState state=new ToolBarState();public RoomToolBarView(android.content.Context c){super(c);}public ToolBarState modGetToolBarState(){return state;}}

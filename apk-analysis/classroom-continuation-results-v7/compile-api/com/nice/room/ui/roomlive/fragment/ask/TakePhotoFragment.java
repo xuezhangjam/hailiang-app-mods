@@ -1,0 +1,1 @@
+package com.nice.room.ui.roomlive.fragment.ask;public class TakePhotoFragment extends com.jchou.commonlibrary.base.v2.BaseFragment{public interface OnTakePhotoListener{void onTakePhoto(String path);}public void setOnTakePhotoListener(OnTakePhotoListener listener){}}

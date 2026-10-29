@@ -1,0 +1,1 @@
+package android.webkit;public class WebViewClient{public boolean shouldOverrideUrlLoading(WebView v,WebResourceRequest r){return false;}public boolean shouldOverrideUrlLoading(WebView v,String u){return false;}public void onPageFinished(WebView v,String url){}}

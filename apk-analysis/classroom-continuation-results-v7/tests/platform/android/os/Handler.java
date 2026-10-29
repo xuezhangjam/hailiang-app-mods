@@ -1,0 +1,2 @@
+package android.os;import android.view.View;import java.util.*;public class Handler{
+public static ArrayList<Runnable> delayed=new ArrayList<>();public Handler(Looper l){}public boolean post(Runnable r){View.tasks.add(r);return true;}public boolean postDelayed(Runnable r,long ms){delayed.add(r);return true;}public void removeCallbacks(Runnable r){delayed.remove(r);View.tasks.remove(r);}public static void timeouts(){ArrayList<Runnable> copy=new ArrayList<>(delayed);delayed.clear();for(Runnable r:copy)r.run();}}

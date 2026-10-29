@@ -1,0 +1,1 @@
+package android.content;public interface DialogInterface{public interface OnDismissListener{void onDismiss(DialogInterface d);}public interface OnKeyListener{boolean onKey(DialogInterface d,int key,android.view.KeyEvent event);}}

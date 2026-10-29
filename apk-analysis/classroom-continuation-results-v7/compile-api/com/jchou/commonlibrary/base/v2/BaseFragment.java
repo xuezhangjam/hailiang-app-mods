@@ -1,0 +1,1 @@
+package com.jchou.commonlibrary.base.v2;public class BaseFragment extends androidx.fragment.app.Fragment{public void show(androidx.fragment.app.FragmentManager manager,int container,boolean back){}public void dismiss(){}}

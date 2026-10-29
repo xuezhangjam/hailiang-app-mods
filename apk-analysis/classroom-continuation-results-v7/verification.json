@@ -1,0 +1,55 @@
+{
+  "input": "学生端课堂-3.2.1.0-分屏底栏恢复-v6.apk",
+  "input_sha256": "1c120811d90fa426419e75c9076b44e29a94c908c97c594e1a51b970d4711f0c",
+  "output": "学生端课堂-3.2.1.0-续答结果显示修复-v7.apk",
+  "sha256": "1f4655e8f61163f1980d295cfd44992a6ed4b712c7fbd9ba802badcad8429396",
+  "size": 64559328,
+  "changed_payloads": [
+    "classes4.dex",
+    "classes10.dex"
+  ],
+  "native_method_patches": {
+    "com/nice/room/ui/roomlive/fragment/ask/result/QuestionAskHandwriteResultFragment.smali::updateAnswer(Lcom/hailiang/xxb/room/server/entity/ask/HandwriteAskShowAnswer;Z)V": "3fe470bcc1b1cc9e83c1b19e6e9005d3d1ed38295e4c8a68af36f5372d8d1933",
+    "com/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView.smali::update(Landroidx/lifecycle/LifecycleCoroutineScope;Lcom/hailiang/xxb/room/server/entity/ask/QuestionAskType;Lcom/hailiang/xxb/room/server/entity/ask/HandwriteAskShowAnswer;Z)V": "8d24eb3c49814daf55b47781baeecf42464f58475051a86fbfdcd693f1bc2caa",
+    "com/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView.smali::update$lambda$6(Lcom/hailiang/handwrite/bean/DrawingRecord;Lcom/hailiang/handwrite/bean/DrawingRecord;Landroidx/lifecycle/LifecycleCoroutineScope;Lcom/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView;Lcom/hailiang/xxb/room/server/entity/ask/HandwriteAskShowAnswer;Lcom/hailiang/xxb/room/server/entity/ask/QuestionAskType;)V": "5e449d72deea74f27b5398afec2473a7c629f19c03b3bb323ce0449078b014bc",
+    "com/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView.smali::update$lambda$6$lambda$5(Lcom/hailiang/xxb/room/server/entity/ask/QuestionAskType;Lcom/hailiang/xxb/room/server/entity/ask/HandwriteAskShowAnswer;Lcom/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView;Ljava/util/List;I)Lkotlin/Unit;": "fe815ed9395ef31de0aaed3fc857afd5ffe4f73e88180591df0fd1912ba03ac1"
+  },
+  "device_tested": false,
+  "school_server_tested": false,
+  "preserved_payloads": 3054,
+  "native_hooks_verified": 4,
+  "other_native_methods_identical": 53897,
+  "alignment_only_methods": 0,
+  "unrelated_dex10_methods_identical": 228,
+  "ppt_v5_dex9_and_split_bottom_v6_dex11_identical": true,
+  "checked_member_references": 3755,
+  "certificate_sha256": "9311b6b4b2b20da0d7366f822dbbc6f3a3bde8fac35f2ca84fefed1a2aa6316e",
+  "tests": {
+    "ContinuationResultsTest": "PASS 37 accepted-result snapshot/readback/lifecycle/render-order assertions",
+    "OverlayLayoutTest": "PASS 151 adaptive native/mod control avoidance assertions",
+    "ChoiceCloudTest": "PASS 78 single/multiple-choice continuation cloud-boundary assertions",
+    "ChoiceBaselineTest": "PASS choice upload regression",
+    "HandwriteCloudTest": "PASS 45 timer continuation and cloud-upload boundary assertions",
+    "NoResultBaselineTest": "PASS missing-result timer regression",
+    "ToolsTest": "PASS 589285 actual Java question, continuation and photo-conversion assertions",
+    "DiscussionPipTest": "PASS 26 discussion, upper-right placement and system-PiP Java assertions",
+    "PipViewportTest": "PASS 150 PiP geometry, restoration, failure and offline-icon assertions",
+    "previous_negative_control": true,
+    "source_sha256": {
+      "src/com/hljzjx/classroom/mod/AiPicker.java": "7867cec70f23bc8d47ec09fa1db2bccb1f15a64f71186abae1f471d3cbb416aa",
+      "src/com/hljzjx/classroom/mod/ChatWebPanel.java": "069a3fd02a642f1238e5908691715ccee00b965018e4fa1e43d613a568d95345",
+      "src/com/hljzjx/classroom/mod/ClassroomPip.java": "64b4833c31ce4e4ca1b09ac72ca392d44d2ea77d9c0702bd8924182c67498f1f",
+      "src/com/hljzjx/classroom/mod/ContinuationResults.java": "721e8b01d2a169c0f36d8dd66022b314aea0e6b7b413371b651fab3f62b920c9",
+      "src/com/hljzjx/classroom/mod/HandwriteCloud.java": "30aef999f25cc5e74c9f49c56c3daaa2a1f608f4ea8410800976b8e189e2af75",
+      "src/com/hljzjx/classroom/mod/HandwriteContinuation.java": "fb09560c53956f35fbadfb3be3ba9cd220b52a3ce441077f6ed845c41fe32114",
+      "src/com/hljzjx/classroom/mod/InkPhotoPlan.java": "a0b62549cbd4d86e7e5cf2feb5808a7348cd0e0cf62040c2b98c7adc96426144",
+      "src/com/hljzjx/classroom/mod/LocalApps.java": "99d2afc2032152a6149976571a189b0a507838d24fd9f21e7aa305250bb906ab",
+      "src/com/hljzjx/classroom/mod/PipViewport.java": "6bfbee05b86fea65070b33bed0119e9fe4f1929d7a34fc45e7c45e023126a6db",
+      "src/com/hljzjx/classroom/mod/QuestionActions.java": "cb4aff1b282a114f54a5fcb74d0682ab3643227f187a596278d7c710558dac31",
+      "src/com/hljzjx/classroom/mod/QuestionMedia.java": "5c319915266dd7ccb8434e7eff5e2f62191511ef3ae11b1d0c0eba995c0ed813",
+      "src/com/hljzjx/classroom/mod/QuestionOverlayLayout.java": "7b93cc2bfce2fe67c9e285013037352639f7fe29f6d08016528eae881958690a",
+      "src/com/hljzjx/classroom/mod/QuestionPptReturn.java": "43f1a13964a49de331791dbeda30d042a8f059f59436c037c5b8280b427b39e6"
+    }
+  },
+  "limitations": "Actual authored Java with observable native/API fixtures, not Pixel Tablet rendering or school-server readback. API-accepted snapshot is labelled and kept distinct from matching cloud-returned metadata. Choice results use native refetch only. No installation or real HTTP/MQTT."
+}

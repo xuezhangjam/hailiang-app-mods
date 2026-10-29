@@ -1,0 +1,1 @@
+PASS missing-result timer regression

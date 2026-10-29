@@ -1,0 +1,1 @@
+PASS 589285 actual Java question, continuation and photo-conversion assertions

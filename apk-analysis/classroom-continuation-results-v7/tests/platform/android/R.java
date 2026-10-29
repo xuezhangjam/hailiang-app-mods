@@ -1,0 +1,1 @@
+package android;public final class R{public static final class id{public static final int content=16908290;}public static final class drawable{public static final int ic_menu_edit=1,ic_menu_slideshow=2,ic_menu_more=3,ic_menu_help=4,ic_menu_camera=5,ic_menu_gallery=6,ic_menu_add=7,ic_menu_close_clear_cancel=8;}}

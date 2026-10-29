@@ -1,0 +1,1 @@
+package com.hailiang.handwrite.serialize;public class XYStrokeSerializer{public static Companion Companion;public static class Companion{public String xyStrokeSerialize(com.hailiang.handwrite.bean.DrawingRecord record){return null;}}}

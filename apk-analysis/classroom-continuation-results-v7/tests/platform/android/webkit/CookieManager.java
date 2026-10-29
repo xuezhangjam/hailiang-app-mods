@@ -1,0 +1,1 @@
+package android.webkit;public class CookieManager{static final CookieManager instance=new CookieManager();public boolean accept,third;public int flushes;public static CookieManager getInstance(){return instance;}public void setAcceptCookie(boolean v){accept=v;}public void setAcceptThirdPartyCookies(WebView w,boolean v){third=v;}public void flush(){flushes++;}}

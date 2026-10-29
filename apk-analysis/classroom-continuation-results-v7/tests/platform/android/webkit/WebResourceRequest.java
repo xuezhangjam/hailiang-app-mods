@@ -1,0 +1,1 @@
+package android.webkit;public class WebResourceRequest{android.net.Uri uri;public WebResourceRequest(String url){uri=android.net.Uri.parse(url);}public android.net.Uri getUrl(){return uri;}}

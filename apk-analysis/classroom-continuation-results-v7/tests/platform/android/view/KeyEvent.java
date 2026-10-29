@@ -1,0 +1,1 @@
+package android.view;public class KeyEvent{public static final int KEYCODE_BACK=4,ACTION_UP=1;int action;public KeyEvent(int a){action=a;}public int getAction(){return action;}}

@@ -1,0 +1,19 @@
+{
+  "input": "学生端课堂-3.2.1.0-分屏底栏恢复-v6.apk",
+  "input_sha256": "1c120811d90fa426419e75c9076b44e29a94c908c97c594e1a51b970d4711f0c",
+  "output": "学生端课堂-3.2.1.0-续答结果显示修复-v7.apk",
+  "sha256": "1f4655e8f61163f1980d295cfd44992a6ed4b712c7fbd9ba802badcad8429396",
+  "size": 64559328,
+  "changed_payloads": [
+    "classes4.dex",
+    "classes10.dex"
+  ],
+  "native_method_patches": {
+    "com/nice/room/ui/roomlive/fragment/ask/result/QuestionAskHandwriteResultFragment.smali::updateAnswer(Lcom/hailiang/xxb/room/server/entity/ask/HandwriteAskShowAnswer;Z)V": "3fe470bcc1b1cc9e83c1b19e6e9005d3d1ed38295e4c8a68af36f5372d8d1933",
+    "com/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView.smali::update(Landroidx/lifecycle/LifecycleCoroutineScope;Lcom/hailiang/xxb/room/server/entity/ask/QuestionAskType;Lcom/hailiang/xxb/room/server/entity/ask/HandwriteAskShowAnswer;Z)V": "8d24eb3c49814daf55b47781baeecf42464f58475051a86fbfdcd693f1bc2caa",
+    "com/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView.smali::update$lambda$6(Lcom/hailiang/handwrite/bean/DrawingRecord;Lcom/hailiang/handwrite/bean/DrawingRecord;Landroidx/lifecycle/LifecycleCoroutineScope;Lcom/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView;Lcom/hailiang/xxb/room/server/entity/ask/HandwriteAskShowAnswer;Lcom/hailiang/xxb/room/server/entity/ask/QuestionAskType;)V": "5e449d72deea74f27b5398afec2473a7c629f19c03b3bb323ce0449078b014bc",
+    "com/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView.smali::update$lambda$6$lambda$5(Lcom/hailiang/xxb/room/server/entity/ask/QuestionAskType;Lcom/hailiang/xxb/room/server/entity/ask/HandwriteAskShowAnswer;Lcom/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView;Ljava/util/List;I)Lkotlin/Unit;": "fe815ed9395ef31de0aaed3fc857afd5ffe4f73e88180591df0fd1912ba03ac1"
+  },
+  "device_tested": false,
+  "school_server_tested": false
+}

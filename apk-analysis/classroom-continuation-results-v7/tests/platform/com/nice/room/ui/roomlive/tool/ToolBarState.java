@@ -1,0 +1,1 @@
+package com.nice.room.ui.roomlive.tool;public class ToolBarState{public com.nice.room.ui.roomlive.interaction.impl.ThirdAppInteraction.ExternalLinkInfo appInfo;public com.nice.room.ui.roomlive.interaction.impl.ThirdAppInteraction.ExternalLinkInfo getAppInfo(){return appInfo;}}

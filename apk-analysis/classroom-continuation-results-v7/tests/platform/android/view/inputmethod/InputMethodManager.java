@@ -1,0 +1,1 @@
+package android.view.inputmethod;public class InputMethodManager{public int hidden;public boolean hideSoftInputFromWindow(Object token,int flags){hidden++;return true;}}

@@ -1,0 +1,1 @@
+package android.widget;public class ImageView extends android.view.View{public enum ScaleType{FIT_CENTER}public android.graphics.Bitmap bitmap;public void setScaleType(ScaleType s){}public void setImageBitmap(android.graphics.Bitmap b){bitmap=b;}public ImageView(android.content.Context c){super(c);}public void setImageDrawable(android.graphics.drawable.Drawable d){}}

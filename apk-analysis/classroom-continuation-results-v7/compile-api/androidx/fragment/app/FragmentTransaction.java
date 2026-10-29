@@ -1,0 +1,1 @@
+package androidx.fragment.app;public class FragmentTransaction{public FragmentTransaction remove(Fragment fragment){return this;}}

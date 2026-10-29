@@ -1,0 +1,1 @@
+package com.hailiang.handwrite.bean;public class PathInfo{public float alpha,strokeWidth;public int color,drawType;public long pathID;public java.util.List<PointInfo> pointsList;public void updateRangeWithPointList(){}}

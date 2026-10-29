@@ -1,0 +1,1 @@
+package com.nice.room.ui.roomlive.tool;public class FunctionToolItemInfo{public static FunctionToolItemInfo modLocalItem(String name,int res,String url,kotlin.jvm.functions.Function1 click){return null;}public String getLabel(){return null;}public int getIconRes(){return 0;}public String getIconLink(){return null;}public kotlin.jvm.functions.Function1 getOnClick(){return null;}}

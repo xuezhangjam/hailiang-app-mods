@@ -1,0 +1,1 @@
+package com.alibaba.fastjson;public class JSON{public static String toJSONString(Object v){return null;}}

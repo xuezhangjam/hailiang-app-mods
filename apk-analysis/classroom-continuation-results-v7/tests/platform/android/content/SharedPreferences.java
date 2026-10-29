@@ -1,0 +1,1 @@
+package android.content;public class SharedPreferences{public java.util.Map<String,String> data=new java.util.HashMap<>();public Editor edit(){return new Editor();}public class Editor{public Editor putString(String k,String v){data.put(k,v);return this;}public void apply(){}}}

@@ -1,0 +1,1 @@
+package com.hailiang.handwrite.serialize;public class XYStrokeSerializer{public static boolean oversized;public static Companion Companion=new Companion();public static class Companion{public String xyStrokeSerialize(com.hailiang.handwrite.bean.DrawingRecord r){if(oversized)return new String(new char[1200001]);return "stroke_xy@"+r.w+";"+r.h+"&pts"+r.paths.size();}}}

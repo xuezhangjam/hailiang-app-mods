@@ -12,10 +12,18 @@
 | 星学伴 | 3.2.1.4 · AI 弹窗 Logo 版及历史包 | [最新版 APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-ai-logos.apk) · [历史包](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/launcher-3.2.1.4) |
 | 星学伴旧版 | 3.2.1.0 · 九个历史版本 | [归档](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/launcher-3.2.1.0-history) |
 | 班级通知 | 1.0.6 · M3e 原生平板版 | [下载](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/notice-1.0.6-m3e) |
-| 学生端课堂 | 3.2.1.0 · 四个功能分支 | [下载](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/classroom-3.2.1.0-mods) |
+| 学生端课堂 | 3.2.1.0 · v7 续答结果显示修复 | [v7 APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-3.2.1.0-continuation-results-v7.apk) · [更新与源码](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/classroom-3.2.1.0-v7) · [旧分支](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/classroom-3.2.1.0-mods) |
 | 精准作业学生端 | 4.0.0.4 · 答案常显、解析默认收起 | [下载](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/homework-4.0.0.4-mod) |
 
-完整文件名、功能说明和已知问题见 [版本目录](docs/versions.md)。共归档 **22 个 APK**。
+完整文件名、功能说明和已知问题见 [版本目录](docs/versions.md)。共归档 **23 个 APK**。
+
+## 学生端课堂 v7
+
+手写题继续作答上传成功后，“我的作答”显示本次上传的笔迹，并重新读取课堂结果。尚未上传的新修改不混入结果；“展优作答”保持原逻辑。云端尚未返回相同笔迹时，显示版本标记为“本次续答已上传”，不代表老师端或后台覆盖已确认。
+
+保留前版的 PPT 宿主测量、分屏底栏、题目返回、相册、AI 与画中画功能。包名为 `com.hljzjx.edu.student.classroom`，版本 `3.2.1.0 / 321000`。本地测试、签名与差异检查通过；尚无 Pixel Tablet 和学校服务器联调结果。
+
+[发布与独立 APK 下载](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/classroom-3.2.1.0-v7) · [源码压缩包](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-continuation-results-v7-source.zip) · [可浏览辅助源码与构建脚本](apk-analysis/classroom-continuation-results-v7) · [详细说明](docs/classroom-v7.md)
 
 ## 星学伴当前版
 

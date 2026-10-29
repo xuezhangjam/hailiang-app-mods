@@ -1,0 +1,1 @@
+package com.hailiang.handwrite.bean;public class PointInfo{public int x,y,color,index,phoneWidth,phoneHeight,type;public long pathId;public float pressure;public PointInfo(int x,int y){this.x=x;this.y=y;}}

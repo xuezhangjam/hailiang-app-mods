@@ -1,0 +1,1 @@
+package com.nice.room.ui.roomlive.interaction.impl;public class ThirdAppInteraction{public static class ExternalLinkInfo{String name,app,logo;public ExternalLinkInfo(long id,String type,String n,String a,String url,String l,Long html){name=n;app=a;logo=l;}public String getName(){return name;}public String getAppId(){return app;}public String getLogo(){return logo;}}}

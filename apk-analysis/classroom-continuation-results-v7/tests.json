@@ -1,0 +1,27 @@
+{
+  "ContinuationResultsTest": "PASS 37 accepted-result snapshot/readback/lifecycle/render-order assertions",
+  "OverlayLayoutTest": "PASS 151 adaptive native/mod control avoidance assertions",
+  "ChoiceCloudTest": "PASS 78 single/multiple-choice continuation cloud-boundary assertions",
+  "ChoiceBaselineTest": "PASS choice upload regression",
+  "HandwriteCloudTest": "PASS 45 timer continuation and cloud-upload boundary assertions",
+  "NoResultBaselineTest": "PASS missing-result timer regression",
+  "ToolsTest": "PASS 589285 actual Java question, continuation and photo-conversion assertions",
+  "DiscussionPipTest": "PASS 26 discussion, upper-right placement and system-PiP Java assertions",
+  "PipViewportTest": "PASS 150 PiP geometry, restoration, failure and offline-icon assertions",
+  "previous_negative_control": true,
+  "source_sha256": {
+    "src/com/hljzjx/classroom/mod/AiPicker.java": "7867cec70f23bc8d47ec09fa1db2bccb1f15a64f71186abae1f471d3cbb416aa",
+    "src/com/hljzjx/classroom/mod/ChatWebPanel.java": "069a3fd02a642f1238e5908691715ccee00b965018e4fa1e43d613a568d95345",
+    "src/com/hljzjx/classroom/mod/ClassroomPip.java": "64b4833c31ce4e4ca1b09ac72ca392d44d2ea77d9c0702bd8924182c67498f1f",
+    "src/com/hljzjx/classroom/mod/ContinuationResults.java": "721e8b01d2a169c0f36d8dd66022b314aea0e6b7b413371b651fab3f62b920c9",
+    "src/com/hljzjx/classroom/mod/HandwriteCloud.java": "30aef999f25cc5e74c9f49c56c3daaa2a1f608f4ea8410800976b8e189e2af75",
+    "src/com/hljzjx/classroom/mod/HandwriteContinuation.java": "fb09560c53956f35fbadfb3be3ba9cd220b52a3ce441077f6ed845c41fe32114",
+    "src/com/hljzjx/classroom/mod/InkPhotoPlan.java": "a0b62549cbd4d86e7e5cf2feb5808a7348cd0e0cf62040c2b98c7adc96426144",
+    "src/com/hljzjx/classroom/mod/LocalApps.java": "99d2afc2032152a6149976571a189b0a507838d24fd9f21e7aa305250bb906ab",
+    "src/com/hljzjx/classroom/mod/PipViewport.java": "6bfbee05b86fea65070b33bed0119e9fe4f1929d7a34fc45e7c45e023126a6db",
+    "src/com/hljzjx/classroom/mod/QuestionActions.java": "cb4aff1b282a114f54a5fcb74d0682ab3643227f187a596278d7c710558dac31",
+    "src/com/hljzjx/classroom/mod/QuestionMedia.java": "5c319915266dd7ccb8434e7eff5e2f62191511ef3ae11b1d0c0eba995c0ed813",
+    "src/com/hljzjx/classroom/mod/QuestionOverlayLayout.java": "7b93cc2bfce2fe67c9e285013037352639f7fe29f6d08016528eae881958690a",
+    "src/com/hljzjx/classroom/mod/QuestionPptReturn.java": "43f1a13964a49de331791dbeda30d042a8f059f59436c037c5b8280b427b39e6"
+  }
+}

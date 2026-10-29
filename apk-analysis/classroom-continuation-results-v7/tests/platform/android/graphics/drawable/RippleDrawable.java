@@ -1,0 +1,1 @@
+package android.graphics.drawable;public class RippleDrawable extends Drawable{public Drawable shape;public RippleDrawable(android.content.res.ColorStateList c,Drawable d,Drawable m){shape=d;}}

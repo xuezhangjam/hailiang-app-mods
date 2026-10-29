@@ -1,0 +1,1 @@
+package com.hailiang.common.util;public class AppRuntimeData{public static long getUserId(){return 0;}}

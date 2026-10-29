@@ -1,0 +1,1 @@
+package androidx.fragment.app;public class FragmentTransaction{public java.util.List<Fragment> removed=new java.util.ArrayList<>();public FragmentTransaction remove(Fragment f){removed.add(f);return this;}}

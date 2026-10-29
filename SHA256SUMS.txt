@@ -20,3 +20,5 @@ e2ccb0b27221f6d7c6e7cccad27c21264872291d1cc313f4e986c2b82313829c  class-notice-1
 8161831ebfad5fc568cb253e45228f734912f40a28a60136d524d6976f808bb6  student-classroom-3.2.1.0-original-ui-resource-download-share.apk
 52316553472262cdb5ac27d8298cdfe808014e67702f11502f8dbdb739b18805  student-classroom-3.2.1.0-free-browsing-return-teacher-download.apk
 890c82e52e937095a193215f1a26562e15b4e654f009c0b0f99e3e17da4dea6a  student-homework-4.0.0.4-answer-visible-explanation-collapsed.apk
+1f4655e8f61163f1980d295cfd44992a6ed4b712c7fbd9ba802badcad8429396  student-classroom-3.2.1.0-continuation-results-v7.apk
+20526f0a265f85c2724ca89b134cf1bb288c5ef574f1b78f994db40b2a6a5c0c  student-classroom-continuation-results-v7-source.zip
